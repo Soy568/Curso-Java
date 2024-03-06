@@ -39,6 +39,17 @@ public class OperadoresMath {
         //      SQRT1_2 Devuelve la raíz cuadrada de 1/2.
         //      SQRT3   Devuelve la raíz cuadrada de 3.
 
+        // ***** PEMDAS *****
+        // Indican el orden en que se debe resolver una operacion dentro de una expresion matematica.
+
+        //  P () Parentesis [], {}.
+        //  E Exponentes.
+        //  M Multiplicaciones.
+        //  D Divisiones.
+        //  A Adiciones o sumas.
+        //  S Sustraccion o restas.
+
+        // y se debe resolver de IZQUIERDA a DERECHA.
 
 
 
@@ -53,9 +64,15 @@ public class OperadoresMath {
         double num2 = Math.random();
 
 
+        double num3=23, num4=45;
+        double calcular = 0;
+        calcular =  ( (2*Math.PI)* num3 * (num3+num4) );
+
+
         System.out.println("La raiz es : "+raiz);
         System.out.println("La potencia es : "+resultado);
         System.out.println("El redondeo es : "+redondeo);
         System.out.println("El número random es : "+num2);
+        System.out.println("El calculo es : "+calcular);
     }
 }
